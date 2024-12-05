@@ -1,23 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #f7f9fc;
     color: #333;
 }
 
 header {
-    background: #007bff;
-    color: #fff;
-    padding: 1rem 0;
+    background-color: #004d40;
+    color: white;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-container p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+nav {
+    background: #00695c;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
 nav a {
-    color: #fff;
-    margin: 0 15px;
+    color: white;
     text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -26,45 +43,55 @@ nav a:hover {
 
 section {
     padding: 2rem;
-    margin: 2rem 0;
-    background: #fff;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.property {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin: 1rem 0;
-    border-radius: 8px;
+h2 {
+    color: #004d40;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-.property img {
+.project img {
     width: 150px;
     height: 100px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 form input, form textarea, form button {
-    display: block;
     width: 100%;
-    margin: 0.5rem 0;
+    margin-bottom: 1rem;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 form button {
-    background: #007bff;
-    color: #fff;
+    background-color: #004d40;
+    color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #0056b3;
+    background-color: #002d27;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #004d40;
+    color: white;
 }
